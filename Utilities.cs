@@ -29,7 +29,8 @@ namespace CS2Stats {
 
             List<LivePlayer> players = [];
 
-            // Include și botii: nu mai filtrăm cu !playerController.IsBot
+            // ATENȚIE: Înainte aici era filtrare pentru boti cu !playerController.IsBot
+            // Dacă vrei să eviți botii, adaugă: !playerController.IsBot && în condiția de mai jos
             foreach (CCSPlayerController playerController in Utilities.GetPlayers()) {
                 if ((playerController.ActionTrackingServices != null) &&
                     (playerController.IsValid &&
