@@ -21,6 +21,20 @@ Stores match, round, player, and event data in a MySQL database for analysis and
 
 ---
 
+## Planned Features
+
+1. Real-time data collection for game mode, round, phase, and map.
+2. Detailed info for each team with real-time player info, including bots.
+3. Advertisement system with management in MySQL and backend.
+4. Rankings by rank, kills, and playtime.
+5. Kill feed log with all in-game events.
+6. Real-time demo buffer for live playback on the website.
+7. Real-time player positions displayed on the mini-map.
+8. Ability for users to test community-created skins in-game.
+9. Request a match with another player and schedule the time directly in the chat/input area.
+
+---
+
 ## Requirements
 
 - .NET 8.0
