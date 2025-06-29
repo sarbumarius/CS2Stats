@@ -29,9 +29,10 @@ namespace CS2Stats {
 
             List<LivePlayer> players = [];
 
+            // Include și botii: nu mai filtrăm cu !playerController.IsBot
             foreach (CCSPlayerController playerController in Utilities.GetPlayers()) {
                 if ((playerController.ActionTrackingServices != null) &&
-                    (!playerController.IsBot && playerController.IsValid &&
+                    (playerController.IsValid &&
                     (playerController.Team == CsTeam.Terrorist || playerController.Team == CsTeam.CounterTerrorist))) {
 
                     LivePlayer livePlayer = new() {

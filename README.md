@@ -19,6 +19,7 @@ Start and control matches using the following server console commands (not avail
 
 - Only the server console can run these commands.
 - Match data is automatically saved at the end of a match.
+- **Alternatively, admins can start a match from in-game text chat using:** `!startmatch`
 
 ---
 
@@ -96,6 +97,7 @@ Start and control matches using the following server console commands (not avail
 
 - Only the server console can run these commands (not players).
 - Match data is automatically saved at the end of a match.
+- **Admins can also start a match from in-game text chat using:** `!startmatch`
 
 ---
 
