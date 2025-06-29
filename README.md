@@ -1,6 +1,10 @@
 > **Note:** This project is a fork of [sarim-hk/CS2Stats](https://github.com/sarim-hk/CS2Stats), originally created by Sarim.
 
-# CS2Stats
+<p align="center">
+  <img src="https://css.scorix.ro/images/metrics2.png" alt="METRICS2 Metrics" />
+</p>
+
+# METRICS2
 
 A Counter-Strike 2 server plugin for advanced match statistics, demo recording, and ELO tracking.  
 Stores match, round, player, and event data in a MySQL database for analysis and web integration.
