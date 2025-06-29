@@ -9,6 +9,17 @@
 A Counter-Strike 2 server plugin for advanced match statistics, demo recording, and ELO tracking.  
 Stores match, round, player, and event data in a MySQL database for analysis and web integration.
 
+**Usage:**  
+Start and control matches using the following server console commands (not available to players):
+
+| Command             | Description                       |
+|---------------------|-----------------------------------|
+| `cs2s_start_match`  | Start a new match                 |
+| `cs2s_cancel_match` | Cancel the current match (no save)|
+
+- Only the server console can run these commands.
+- Match data is automatically saved at the end of a match.
+
 ---
 
 ## Features
